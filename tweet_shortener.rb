@@ -1,5 +1,5 @@
 # Write your code here.
-require 
+require "pry"
 
 def dictionary
   words_to_be_substituted = {
