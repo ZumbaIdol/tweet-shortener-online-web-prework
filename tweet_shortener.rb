@@ -43,6 +43,7 @@ end
      
 def shortened_tweet_truncator(tweet)
   tweet.split(" ").collect do |array_tweet|
+    binding.pry
     if array_tweet.length > 140
       array_tweet[0..140] + "..."
     else
