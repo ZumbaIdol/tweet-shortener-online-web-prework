@@ -1,4 +1,6 @@
 # Write your code here.
+require 
+
 def dictionary
   words_to_be_substituted = {
     "hello" => "hi",
