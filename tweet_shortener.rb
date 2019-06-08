@@ -41,3 +41,14 @@ def selective_tweet_shortener(tweet)
   end
 end
      
+def shortened_tweet_truncator(tweet)
+  tweet.split(" ").collect do |array_tweet|
+    if array_tweet.length > 140
+      array_tweet[0..140] + "..."
+    else
+      array_tweet
+    end
+  end.join(" ")
+end
+
+ 
